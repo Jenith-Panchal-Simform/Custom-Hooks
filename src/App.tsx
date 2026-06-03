@@ -5,6 +5,7 @@
 // import { OnlineStatus } from "./components/4_OnlineStatus";
 // import { UserListWithLoading } from "./components/5_LoadingHOC";
 import { PreviousValue } from "./components/6_PreviousValue";
+import { PaginationDemo } from "./components/7_usePagination";
 
 const App = () => {
     const data = [
@@ -24,7 +25,8 @@ const App = () => {
             {/* <DarkModeComponent /> */}
             {/* <OnlineStatus /> */}
             {/* <UserListWithLoading loading="true" datas={data} /> */}
-            <PreviousValue />
+            {/* <PreviousValue /> */}
+            <PaginationDemo />
         </div>
     );
 };
