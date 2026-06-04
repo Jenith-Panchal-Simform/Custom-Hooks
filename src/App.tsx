@@ -6,6 +6,7 @@
 // import { UserListWithLoading } from "./components/5_LoadingHOC";
 import { PreviousValue } from "./components/6_PreviousValue";
 import { PaginationDemo } from "./components/7_usePagination";
+import { Signup } from "./components/8_SignUp";
 
 const App = () => {
     const data = [
@@ -26,7 +27,8 @@ const App = () => {
             {/* <OnlineStatus /> */}
             {/* <UserListWithLoading loading="true" datas={data} /> */}
             {/* <PreviousValue /> */}
-            <PaginationDemo />
+            {/* <PaginationDemo /> */}
+            <Signup />
         </div>
     );
 };
