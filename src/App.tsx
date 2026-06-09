@@ -4,9 +4,15 @@
 // import { DarkModeComponent } from "./components/3_DarkModeComponent";
 // import { OnlineStatus } from "./components/4_OnlineStatus";
 // import { UserListWithLoading } from "./components/5_LoadingHOC";
+import { ScreenSize } from "./components/10_ScreenSize";
+import { Search } from "./components/11_Search";
+import { IsIdle } from "./components/12_IsIdle";
+import { ShowMoreData } from "./components/13_ShowMoreData";
+import { ClickOutside } from "./components/14_ClickOutside";
 import { PreviousValue } from "./components/6_PreviousValue";
 import { PaginationDemo } from "./components/7_usePagination";
 import { Signup } from "./components/8_SignUp";
+import { FetchUsers } from "./components/9_FetchUsers";
 
 const App = () => {
     const data = [
@@ -28,7 +34,13 @@ const App = () => {
             {/* <UserListWithLoading loading="true" datas={data} /> */}
             {/* <PreviousValue /> */}
             {/* <PaginationDemo /> */}
-            <Signup />
+            {/* <Signup /> */}
+            {/* <FetchUsers /> */}
+            {/* <ScreenSize /> */}
+            {/* <Search /> */}
+            {/* <IsIdle /> */}
+            {/* <ShowMoreData/> */}
+            <ClickOutside />
         </div>
     );
 };
