@@ -9,6 +9,12 @@ import { Search } from "./components/11_Search";
 import { IsIdle } from "./components/12_IsIdle";
 import { ShowMoreData } from "./components/13_ShowMoreData";
 import { ClickOutside } from "./components/14_ClickOutside";
+import { KeyPress } from "./components/15_KeyPress";
+import { ResetState } from "./components/16_ResetState";
+import ShortCutDemo from "./components/17_ShortCutDemo";
+import WindowDimension from "./components/18_WindowDimension";
+import MediaQuery from "./components/19_MediaQuery";
+import FirstRender from "./components/20_FirstRender";
 import { PreviousValue } from "./components/6_PreviousValue";
 import { PaginationDemo } from "./components/7_usePagination";
 import { Signup } from "./components/8_SignUp";
@@ -40,7 +46,13 @@ const App = () => {
             {/* <Search /> */}
             {/* <IsIdle /> */}
             {/* <ShowMoreData/> */}
-            <ClickOutside />
+            {/* <ClickOutside /> */}
+            {/* <KeyPress /> */}
+            {/* <ResetState /> */}
+            {/* <ShortCutDemo /> */}
+            {/* <WindowDimension /> */}
+            {/* <MediaQuery /> */}
+            <FirstRender />
         </div>
     );
 };
